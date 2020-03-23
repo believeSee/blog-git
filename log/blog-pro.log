@@ -1,0 +1,6 @@
+2020-03-23 18:51:59.836  INFO 22112 --- [restartedMain] com.chenshijie.BlogApplication           : Starting BlogApplication on LAPTOP-GJOH7Q5P with PID 22112 (D:\javaweb\IDEAworkspace\springboot\blog\target\classes started by 96562 in D:\javaweb\IDEAworkspace\springboot\blog)
+2020-03-23 18:51:59.838 DEBUG 22112 --- [restartedMain] com.chenshijie.BlogApplication           : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-23 18:51:59.839  INFO 22112 --- [restartedMain] com.chenshijie.BlogApplication           : The following profiles are active: pro
+2020-03-23 18:52:02.313  WARN 22112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-23 18:52:02.654  WARN 22112 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-23 18:52:02.779  INFO 22112 --- [restartedMain] com.chenshijie.BlogApplication           : Started BlogApplication in 3.368 seconds (JVM running for 4.629)

@@ -1,0 +1,6 @@
+#在thymeleaf3.0+需要使用mode为HTML
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev

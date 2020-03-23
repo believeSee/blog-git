@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 public class ControllerExceptionHandler {
 
     //获取到一个日志对象，org包下
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @ExceptionHandler(Exception.class) //加上这个这家，就是一个异常处理器
     public ModelAndView exceptionHandler(HttpServletRequest request, Exception e) throws Exception {
